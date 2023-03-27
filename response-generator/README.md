@@ -20,7 +20,7 @@ Thats it.
 #### Example
 
 ```
-import generateResponse from 'jx-response-generator'
+import { generateResponse } from "jx-response-generator";
 const userData = {
     firstname: 'John',
     lastname: 'Doe',
@@ -36,7 +36,7 @@ const hobbies = {
     type: ['football', 'gaming', 'reading']
 }
 
-consoel.log(generateResponse({...userData, ...hobbies}, ['firstname', 'lastname', 'city', 'type'])
+consoel.log(generateResponse({...userData, ...hobbies}, ['firstname', 'lastname', 'city', 'type']))
 
 
 --> Output
