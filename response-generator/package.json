@@ -24,7 +24,11 @@
     "javascript",
     "typescript"
   ],
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pappijx/npm_package.git"
+  },
+  "license": "MIT",
   "devDependencies": {
     "prettier": "2.8.6",
     "tslint": "6.1.3",
