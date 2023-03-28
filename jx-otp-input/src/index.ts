@@ -1,3 +1,3 @@
-import MyCounter from './components/MyCounter'
+import OtpInput from './components/OtpInput'
 
-export { MyCounter }
+export { OtpInput }
